@@ -3,7 +3,7 @@ title: Final
 date: "2021-04-29"
 ---
 
-
+[final jupyter notebook](https://github.com/theheckle/mol/blob/master/final/Final%20Project.ipynb)
 
 ## Markovify
 I decided to focus on the technical portion of my proposed robot and dynamically create asemic bible verses to be physically written later. I decided to end up breaking down my project for each class. When designing how the Bible verse data was collected, I initially thought to grab 10 or so verses by hand and putting them in a json file:
@@ -18,7 +18,9 @@ I decided to focus on the technical portion of my proposed robot and dynamically
         }
     ]
 
-But then I realized that if I were to parse this json and randomly select each individual component I would basically be making a worse version of a Markov chain. So I checked if there is a python library to do so! Would you look at [that](https://github.com/jsvine/markovify)
+But then I realized that if I were to parse this json and randomly select each individual component I would basically be making a worse version of a Markov chain. So I checked if there is a python library to do so! 
+
+https://github.com/jsvine/markovify
 
 Following the readme, I tried installing:
 
@@ -58,4 +60,42 @@ But! They already account for that and even in the readme, they have instruction
         for n in root.iter('seg'):
             out.write(n.text.strip() + '\n')
 
+I pulled this into the [corpus.txt](https://github.com/theheckle/mol/blob/master/final/corpus.txt). From there I worked on the actual verse names. I kept with my original json architecture and created my [verses.json](https://github.com/theheckle/mol/blob/master/final/verses.json)
 
+This all culminated in randomly generating verses that could be printed. The Markov chain generates the text, and I manually create the seperate verse name by random generation.
+
+![unformatted](./unformatted.png)
+
+# First Attempt at Digital Display
+
+My first attempt comprised of layering all of the verses together and the longest one would demonstrate the particular name. I liked this version because it really alluded to biblical text, because otherwise there would be no correlation.
+
+![first](./first.png)
+
+# Second Attempts using Polyline
+
+The following attempts were using Polyline to figure out how to get the specific coordinates with each individual glyph. 
+
+![readred](./readred.png)
+
+![normie.png](./normie.png)
+
+![more_normie.png](./normie.png)
+
+# Cursed Attempts
+
+These were messing with the rotation and scale of the Polyline object. 
+
+![cursed](./cursed.png)
+
+![cursed2](./cursed2.png)
+
+# Final Attempt
+
+This is the final output 
+
+![final](./final.png)
+
+This will be the coordinates used to plot the text using the translations and making the entry above a physical output.
+
+![final output](./final_output.png)
