@@ -14,7 +14,13 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="All Categories" />
       <Bio />
 
+      <Link to="/thesis">ITP Thesis 2022</Link>
+      <hr margin="2px"></hr>
+
       <Link to="/absurd">Designing the Absurd</Link>
+      <Link to="/networks">Understanding Networks</Link>
+      <Link to="/biomaterials">Biomaterials and Multispecies</Link>
+      <Link to="/cybernetics">Cybernetics of Sex</Link>
 
       <hr margin="2px"></hr>
       <Link to="/blessed">Blessed/Blursed/Cursed</Link>
