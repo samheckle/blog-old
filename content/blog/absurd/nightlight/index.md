@@ -1,12 +1,10 @@
 ---
-title: Adult Nightlight
+title: 'Bedside Bartender: An Adult Nightlight'
 date: "2021-11-11"
 description: "Documentation for our Adult Nightlight, a nightlight that tells you generated bedtime stories so that you don't have to go to the bar yourself."
 ---
 
-## An Adult Nightlight 
-
-[](our final product, an adult nightlight that tells you generated bedtime stories so that you don't have to go to a bar yourself)
+![our final product, an adult nightlight that tells you generated bedtime stories so that you don't have to go to a bar yourself](./3Quater.png)
 
 ## From A Concept
 
@@ -28,7 +26,11 @@ Introducing...
 
 The Adult NightLight™️
 
-(insert more pics here pls)
+![](./Ortho.png)    
+![](./Side.png)
+![](./Front.png)
+
+`youtube: https://youtu.be/t8E7uKg4IqM`
 
 ## Software
 
@@ -47,9 +49,6 @@ After that, we used a markov chain (to see what _these_ do, check out the wiki p
 Processing was a bit more difficult than the story generation. We started with the animation  
 
 [final processing code](https://github.com/theheckle/nightlight/blob/main/nightlight.pde)
-
-## Challenges
-
 
 # Previous iteration blog posts for this project:
 
