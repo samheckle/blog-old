@@ -5,17 +5,17 @@ import Bio from "../components/bio";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-const ComputationalNarrative = ({ data, location }) => {
+const catn = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="computational-narrative" />
+      <SEO title="catn" />
       <Bio />
       <hr margin="2px"></hr>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
-        if( node.fields.slug.includes("/computational-narrative")){
+        if( node.fields.slug.includes("/catn")){
           return (
             <article key={node.fields.slug} className="blog">
               <header>
@@ -48,7 +48,7 @@ const ComputationalNarrative = ({ data, location }) => {
   );
 };
 
-export default ComputationalNarrative;
+export default catn;
 
 export const pageQuery = graphql`
   query {

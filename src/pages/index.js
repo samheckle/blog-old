@@ -16,8 +16,8 @@ const BlogIndex = ({ data, location }) => {
 
       <Link to="/thesis">ITP Thesis 2022</Link>
       <hr margin="2px"></hr>
-      <Link to="/energy">energy</Link>
-      <Link to="/computational-narrative">computational narrative</Link>
+      <Link to="/rwet">reading and writing electronic text</Link>
+      <Link to="/catn">computational narrative</Link>
       <hr margin="2px"></hr>
 
       <Link to="/absurd">Designing the Absurd</Link>
