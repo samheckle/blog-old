@@ -3,7 +3,7 @@ title: Final
 date: "2021-04-29"
 ---
 
-[final jupyter notebook](https://github.com/theheckle/mol/blob/master/final/Final%20Project.ipynb)
+[final jupyter notebook](https://github.com/samheckle/mol/blob/master/final/Final%20Project.ipynb)
 
 ## Markovify
 I decided to focus on the technical portion of my proposed robot and dynamically create asemic bible verses to be physically written later. I decided to end up breaking down my project for each class. When designing how the Bible verse data was collected, I initially thought to grab 10 or so verses by hand and putting them in a json file:
@@ -60,7 +60,7 @@ But! They already account for that and even in the readme, they have instruction
         for n in root.iter('seg'):
             out.write(n.text.strip() + '\n')
 
-I pulled this into the [corpus.txt](https://github.com/theheckle/mol/blob/master/final/corpus.txt). From there I worked on the actual verse names. I kept with my original json architecture and created my [verses.json](https://github.com/theheckle/mol/blob/master/final/verses.json)
+I pulled this into the [corpus.txt](https://github.com/samheckle/mol/blob/master/final/corpus.txt). From there I worked on the actual verse names. I kept with my original json architecture and created my [verses.json](https://github.com/samheckle/mol/blob/master/final/verses.json)
 
 This all culminated in randomly generating verses that could be printed. The Markov chain generates the text, and I manually create the seperate verse name by random generation.
 

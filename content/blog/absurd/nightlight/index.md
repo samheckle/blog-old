@@ -42,13 +42,13 @@ From there, it was a matter of picking the thread (which ended up being pulled f
 
 After that, we used a markov chain (to see what _these_ do, check out the wiki page), and this specific [javascript library](https://github.com/Edwin-Pratt/js-markov) implementation.
 
-[final generation code](https://github.com/theheckle/nightlight/blob/main/script.js)
+[final generation code](https://github.com/samheckle/nightlight/blob/main/script.js)
 
 # Processing 
 
 Processing was a bit more difficult than the story generation. We started with the animation  
 
-[final processing code](https://github.com/theheckle/nightlight/blob/main/nightlight.pde)
+[final processing code](https://github.com/samheckle/nightlight/blob/main/nightlight.pde)
 
 # Previous iteration blog posts for this project:
 

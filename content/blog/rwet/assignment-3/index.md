@@ -90,7 +90,7 @@ i also added a button, which reruns the cell so that the personalities are gener
 
 ## final
 
-[link to code (again)](https://github.com/theheckle/rwet/blob/master/assignment-3/personality-generator.ipynb)
+[link to code (again)](https://github.com/samheckle/rwet/blob/master/assignment-3/personality-generator.ipynb)
 ![final ruleset](./rules.png)
 ![another final output](./uncoop.png)
 

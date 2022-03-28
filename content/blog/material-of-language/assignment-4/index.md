@@ -3,7 +3,7 @@ title: Assignment 4
 date: "2021-04-02"
 ---
 
-[assignment github](https://github.com/theheckle/mol/blob/master/asemic%20exploration.ipynb)
+[assignment github](https://github.com/samheckle/mol/blob/master/asemic%20exploration.ipynb)
 
 # More Experiments with Scribbles
 For this assignment I was looking into more handwriting and fiddled with some of the sample code:

@@ -3,7 +3,7 @@ title: Assignment 2
 date: "2021-02-26"
 ---
 
-[assignment github](https://github.com/theheckle/mol/blob/master/pinwheel.ipynb)
+[assignment github](https://github.com/samheckle/mol/blob/master/pinwheel.ipynb)
 
 # Inspiration
 ![concerto-61](./concreto61.jpg)

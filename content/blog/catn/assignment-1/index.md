@@ -4,7 +4,7 @@ date: "2022-01-30"
 description: "sketch #1 documentation"
 ---
 
-[link to code](https://github.com/theheckle/catn/tree/master/assignment-1)
+[link to code](https://github.com/samheckle/catn/tree/master/assignment-1)
 
 ## Premise -- Two Sentence Horror
 

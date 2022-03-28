@@ -3,7 +3,7 @@ title: Assignment 3
 date: "2021-03-13"
 ---
 
-[assignment github](https://github.com/theheckle/mol/blob/master/asemic%20exploration.ipynb)
+[assignment github](https://github.com/samheckle/mol/blob/master/asemic%20exploration.ipynb)
 
 # Experimenting with Scribbles
 ![test](./fucked.jpg)

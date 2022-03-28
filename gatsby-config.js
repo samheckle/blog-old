@@ -9,7 +9,7 @@ module.exports = {
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `http://blog.samheckle.com`,
     social: {
-      twitter: `the_heckle`,
+      twitter: `samheckle`,
     },
   },
   plugins: [

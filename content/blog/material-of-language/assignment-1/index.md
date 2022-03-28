@@ -3,7 +3,7 @@ title: Assignment 1
 date: "2021-02-11"
 ---
 
-[assignment github](https://github.com/theheckle/mol/blob/master/ever.ipynb)
+[assignment github](https://github.com/samheckle/mol/blob/master/ever.ipynb)
 
 # Letters and Numbers in Python
 
