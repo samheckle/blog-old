@@ -6,7 +6,7 @@ description: "experiments in tracery and python to analyze a genre"
 [try it out here!](http://samheckle.com/hosted/pg/)
 
 
-[link to code](https://github.com/theheckle/rwet/blob/master/assignment-3/personality-generator.ipynb)
+[link to code](https://github.com/samheckle/rwet/blob/master/assignment-3/personality-generator.ipynb)
 ![example of final output](./beautiful.png)
 
 ## inspiration
